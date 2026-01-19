@@ -1,0 +1,15 @@
+2025-08-08 14:51:29,951 - USER: hi | INTENT: greeting | CONF: 1.00 | BOT: Hello! How can I help you today?
+2025-08-08 14:51:47,222 - USER: I wan to know about timmings. | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 14:51:50,597 - USER: why | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 14:51:56,535 - USER: timmings | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 14:52:09,437 - USER: details | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 14:52:14,413 - USER: hi | INTENT: greeting | CONF: 1.00 | BOT: Hello! How can I help you today?
+2025-08-08 14:52:18,309 - USER: thank you | INTENT: thanks | CONF: 1.00 | BOT: Happy to help.
+2025-08-08 14:52:24,373 - USER: help | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 14:55:02,951 - USER: book meetings | INTENT: book_meeting | CONF: 1.00 | BOT: Sure — what date and time would you like? I can note it as a reminder.
+2025-08-08 14:55:13,959 - USER: 9:20 | BOT: I didn't get that — can you say it another way? | raw_intent:greeting conf:0.06
+2025-08-08 14:55:18,077 - USER: yes | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06
+2025-08-08 15:05:45,236 - USER: hii | BOT: I didn't get that — can you say it another way? | raw_intent:greeting conf:0.06
+2025-08-08 15:05:47,469 - USER: hi | INTENT: greeting | CONF: 1.00 | BOT: Hello! How can I help you today?
+2025-08-08 15:05:55,609 - USER: teach: | BOT: Teach format: teach: intent_tag | example phrase | optional response
+2025-08-08 15:06:01,580 - USER: yes | BOT: Sorry, I didn't understand. Could you rephrase? | raw_intent:greeting conf:0.06

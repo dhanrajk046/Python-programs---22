@@ -1,0 +1,8 @@
+2025-08-08 14:40:15,500 - INFO - USER: hi | FALLBACK_SIM_TAG: greeting | SIM: 1.00 | BOT: Hello! How can I help you today?
+2025-08-08 14:40:27,060 - INFO - USER: i want the timmings? | BOT: Sorry, I didn't understand that. Can you rephrase?
+2025-08-08 14:40:43,564 - INFO - USER: I want to know about the timmings. | BOT: I didn't catch that — could you say it differently?
+2025-08-08 14:40:55,641 - INFO - USER: hours | BOT: We are open Monday to Friday from 9:00 to 18:00.
+2025-08-08 14:41:05,460 - INFO - USER: give me full details. | BOT: Sorry, I didn't understand that. Can you rephrase?
+2025-08-08 14:41:19,363 - INFO - USER: Give me full details of openings. | FALLBACK_SIM_TAG: hours | SIM: 0.61 | BOT: We're open Monday to Friday, 9 AM to 6 PM.
+2025-08-08 14:41:40,331 - INFO - USER: Details | BOT: Sorry, I didn't understand that. Can you rephrase?
+2025-08-08 14:44:12,744 - INFO - USER: C:\Users\pc\AppData\Local\Microsoft\WindowsApps\python3.13.exe "c:/Users/pc/OneDrive/Desktop/Python programs - Copy/y.py" | BOT: I didn't catch that — could you say it differently?

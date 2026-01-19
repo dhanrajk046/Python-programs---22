@@ -1,0 +1,15 @@
+2025-08-08 15:01:01,496 - USER:calc BOT:I didn't get that — would you like me to connect you to a human agent? Reply 'agent' to request a live agent.
+2025-08-08 15:01:06,533 - USER:calc: BOT:Calculation error: invalid syntax (<string>, line 0)
+2025-08-08 15:01:11,743 - USER:hi INTENT:greeting CONF:1.00 BOT:Hello! How can I assist you today?
+2025-08-08 15:01:15,655 - USER:help me INTENT:installation_help CONF:0.56 BOT:Which platform (Windows/macOS/Linux/iOS/Android)? I can provide step-by-step installation instructions.
+2025-08-08 15:01:27,646 - USER:Windows BOT:Sorry, I didn't understand that. Could you rephrase or provide the order ID? If you'd like, I can connect you to a human agent — reply 'agent' to request.
+2025-08-08 15:01:38,086 - USER:help INTENT:installation_help CONF:0.56 BOT:Which platform (Windows/macOS/Linux/iOS/Android)? I can provide step-by-step installation instructions.
+2025-08-08 15:01:45,182 - USER:ios BOT:I didn't get that — would you like me to connect you to a human agent? Reply 'agent' to request a live agent. If you'd like, I can connect you to a human agent — reply 'agent' to request.
+2025-08-08 15:01:53,868 - USER:agent BOT:I'll connect you to a human agent. Please share a brief summary and your preferred contact method (phone/email).
+2025-08-08 15:02:01,790 - USER:6564 BOT:Sorry, I didn't understand that. Could you rephrase or provide the order ID? If you'd like, I can connect you to a human agent — reply 'agent' to request.
+2025-08-08 15:06:29,012 - USER:hi INTENT:greeting CONF:1.00 BOT:Hello! How can I assist you today?
+2025-08-08 15:06:35,068 - USER:help INTENT:installation_help CONF:0.56 BOT:Which platform (Windows/macOS/Linux/iOS/Android)? I can provide step-by-step installation instructions.
+2025-08-08 15:06:42,612 - USER:Android BOT:Sorry, I didn't understand that. Could you rephrase or provide the order ID?
+2025-08-08 15:06:47,395 - USER:hii BOT:I didn't get that — would you like me to connect you to a human agent? Reply 'agent' to request a live agent. If you'd like, I can connect you to a human agent — reply 'agent' to request.
+2025-08-08 15:06:52,369 - USER:agent BOT:I'll connect you to a human agent. Please share a brief summary and your preferred contact method (phone/email).
+2025-08-22 03:28:25,190 - USER:"C:\Program Files\Python313\python.exe" "c:/Users/pc/OneDrive/Desktop/Python programs - Copy/22.Customer Helper Chatbot.py" INTENT:subscription_upgrade CONF:0.56 BOT:I can help upgrade your plan. Which plan would you like to upgrade to (Pro/Enterprise)?
