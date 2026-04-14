@@ -7,14 +7,20 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem import WordNetLemmatizer
 
+
 # Function to make sure NLTK data is available
 def ensure_nltk_data():
     required_packages = ["punkt", "punkt_tab", "wordnet"]
     for pkg in required_packages:
         try:
-            nltk.data.find(f"tokenizers/{pkg}") if "punkt" in pkg else nltk.data.find(f"corpora/{pkg}")
+            (
+                nltk.data.find(f"tokenizers/{pkg}")
+                if "punkt" in pkg
+                else nltk.data.find(f"corpora/{pkg}")
+            )
         except LookupError:
             nltk.download(pkg, quiet=True)
+
 
 # Ensure all necessary NLTK data is installed
 ensure_nltk_data()
@@ -46,22 +52,25 @@ for intent in data["intents"]:
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(corpus)
 
+
 def preprocess_input(user_input):
     tokens = nltk.word_tokenize(user_input)
     lemmatized = [lemmatizer.lemmatize(w.lower()) for w in tokens]
     return " ".join(lemmatized)
+
 
 def get_intent(user_input):
     processed = preprocess_input(user_input)
     user_vec = vectorizer.transform([processed])
     similarities = cosine_similarity(user_vec, X)
 
-    best_match = np.argmax(similarities)
+    best_match = np.argmax(similarities[0])
 
     if similarities[0][best_match] < 0.3:
         return "default"
 
     return tags[best_match]
+
 
 def chatbot():
     print("ChatBot is running! Type 'quit' to exit.")
@@ -80,6 +89,7 @@ def chatbot():
         except KeyboardInterrupt:
             print("\nBot: Goodbye!")
             break
+
 
 if __name__ == "__main__":
     chatbot()
